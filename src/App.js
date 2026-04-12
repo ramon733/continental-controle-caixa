@@ -164,7 +164,7 @@ export default function App(){
   const tdS={padding:"11px 10px"};
   const ab=(fn,e,c)=>(<button onClick={fn} style={{background:"none",border:"none",color:c,cursor:"pointer",fontSize:15,opacity:0.5,transition:"opacity 0.2s",marginLeft:4}} onMouseEnter={e2=>e2.currentTarget.style.opacity=1} onMouseLeave={e2=>e2.currentTarget.style.opacity=0.5}>{e}</button>);
 
-  return(<div style={{fontFamily:"'Inter','Segoe UI',sans-serif",background:BG,color:WHT,minHeight:"100vh"}}>
+  return(<div style={{fontFamily:"'Inter','Segoe UI',sans-serif",background:BG,color:WHT,minHeight:"100vh",overflowX:"hidden",maxWidth:"100vw",overflowX:"hidden",maxWidth:"100vw",overflowX:"hidden",maxWidth:"100vw",overflowX:"hidden",maxWidth:"100vw",overflowX:"hidden",maxWidth:"100vw"}}>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
     <style>{`*{scrollbar-width:thin;scrollbar-color:${PRI}44 transparent}::-webkit-scrollbar{width:6px;height:6px}::-webkit-scrollbar-thumb{background:${PRI}44;border-radius:3px}::selection{background:${PRI};color:${WHT}}input:focus,select:focus{border-color:${PRI}!important;outline:none}@keyframes fu{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.fu{animation:fu 0.4s ease forwards}table tr:hover td{background:${PRI}08!important}`}</style>
 
