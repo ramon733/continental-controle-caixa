@@ -199,7 +199,7 @@ export default function App(){
       <div style={{display:"flex",alignItems:"center",gap:14,marginBottom:24,flexWrap:"wrap"}}>
         <h2 style={{margin:0,color:ICE,fontSize:26,letterSpacing:3,fontWeight:800}}>DASHBOARD</h2>
         <div style={{display:"flex",gap:3,background:BG2,borderRadius:10,padding:3,border:"1px solid "+PRI+"15"}}>
-          {MO.map(m=>(<button key={m} onClick={()=>setDm(m)} style={{padding:"5px 9px",borderRadius:7,border:"none",cursor:"pointer",fontSize:11,fontWeight:dm===m?700:400,background:dm===m?PRI+"28":"transparent",color:dm===m?ICE:TXT3,transition:"all 0.2s"}}>{m}</button>))}
+          {MO.map(m=>(<button key={m} onClick={()=>setDm(m)} style={{padding:"5px 9px",borderRadius:7,border:"none",flexShrink:0,cursor:"pointer",fontSize:11,fontWeight:dm===m?700:400,background:dm===m?PRI+"28":"transparent",color:dm===m?ICE:TXT3,transition:"all 0.2s"}}>{m}</button>))}
         </div>
       </div>
 
